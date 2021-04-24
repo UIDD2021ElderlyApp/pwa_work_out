@@ -1,0 +1,24 @@
+{
+	"name": "wpa_test_web_site",
+	"short_name": "wpa_test_web_site",
+	"description": "wpa_test_web_site",
+	"start_url": "/~andythebreaker/pwa_work_out/index.html",
+	"display": "standalone",
+	"orientation": "portrait",
+	"theme_color": "#417505",
+	"background_color": "#7ed321",
+	"icons": [
+	  {
+		"src": "img/favicon.ico",
+		"sizes": "192x192",
+		"type": "image/ico",
+		"purpose": "maskable any"
+	  },
+	  {
+		"src": "img/favicon.ico",
+		"sizes": "512x512",
+		"type": "image/ico",
+		"purpose": "maskable any"
+	  }
+	]
+}

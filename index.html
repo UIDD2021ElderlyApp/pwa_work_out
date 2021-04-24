@@ -3,6 +3,21 @@
 
 <head>
     <title>wpa_test_web_site</title>
+
+    <!--WPA-->
+    <link rel="manifest" href="manifest.json">
+    <!-- 網頁頁籤小圖示 -->
+    <link rel="shortcut icon" sizes="16x16" href="img/favicon.ico">
+    <!-- Apple Safari -->
+    <link rel="apple-touch-icon" sizes="192x192" href="img/favicon.ico">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="wpa_test_web_site">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script async src="https://cdn.jsdelivr.net/npm/pwacompat" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!--meta-->
     <meta name="author" content="UIDD2021ElderlyApp">
     <meta name="keywords" content="pwa, oldFriend">
@@ -24,21 +39,13 @@
         integrity="sha512-glciccPoOqr5mfDGmlJ3bpbvomZmFK+5dRARpt62nZnlKwaYZSfFpFIgUoD8ujqBw4TmPa/F3TX28OctJzoLfg=="
         crossorigin="anonymous">
 
-    <!--WPA-->
-    <link rel="manifest" href="manifest.json">
-    <link rel="preload" href="manifest.json" as="manifest">
-    <!-- 手機主畫面 -->
-    <link rel="apple-touch-icon" sizes="192x192" href="img/favicon.ico">
-    <!-- 網頁頁籤小圖示 -->
-    <link rel="shortcut icon" sizes="16x16" href="img/favicon.ico">
-    <link rel="preload" href="assets/apple-icon-180.jpg" as="image">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <script async src="https://cdn.jsdelivr.net/npm/pwacompat" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
     <header>
+        <!-- index.js -->
+        <script src="./index.js">
+        </script>
 
     </header>
 
@@ -67,9 +74,6 @@
         <!--bootstrap-->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
         </script>
-        </script>
-        <!-- index.js -->
-        <script src="./index.js">
         </script>
 
     </footer>
